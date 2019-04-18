@@ -50,7 +50,7 @@ export default {
 div{
   h1{
     color:red;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 </style>
