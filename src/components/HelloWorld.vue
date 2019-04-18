@@ -49,7 +49,7 @@ export default {
 <style scoped lang="scss">
 div{
   h1{
-    color:green;
+    color:blue;
     font-size: 34px;
   }
 }
