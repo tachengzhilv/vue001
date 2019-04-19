@@ -6,6 +6,7 @@
       <button @click="postInfo">post请求</button>  
       <button @click="add">+1</button>
       <button @click="minus">-1</button>
+      <button @click="test">测试</button>
     </div>
     <router-link :to="{name:'page'}">子组件page</router-link>
 
@@ -41,6 +42,11 @@ export default {
     },
     minus(){
       this.$store.commit('minus')
+    },
+    test(){
+      this.$http.get('http://www.liulongbin.top:3005/api/getlunbo').then(res=>{
+        console.log(res.body)
+      })
     }
   }
 }

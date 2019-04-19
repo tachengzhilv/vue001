@@ -25,5 +25,7 @@ export default new Router({
         }
       ]
     }
+    // ,
+    // linkActiveClass:''
   ]
 })
